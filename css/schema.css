@@ -1,0 +1,68 @@
+body{
+	/*color: #fff;*/
+}
+.header,
+.banner,
+.about-us{
+	background-color: #313842;
+}
+.header-text h1,
+.slogan,
+.about-us{
+	color: #fff;
+}
+.whowe .h-title,
+.feat-des .h-title,
+.our-price .h-title{
+	color: #333;
+}
+.slogan .high-text{
+	color: #07c1b3;
+}
+.nav.pull-right {
+	 border-bottom: 1px solid #d4d4d4;
+}
+.nav-actice {
+	 border: 2px solid #07c1b3;
+}
+.head-bod{
+	background-color: #07c1b3;
+}
+.whowe {
+    color: #333;
+    padding: 50px 0px;
+}
+.h-title{
+    border-left: 3px solid #07c1b3;
+    color: #fff;
+}
+.ab-h h1 {
+	border-left: 5px solid #07c1b3;
+}
+.ab-con .ab-sb-h {
+	border-bottom: 3px solid #07c1b3;
+}
+.feat-des{
+	color: #333;
+}
+.feat-item img{
+	width: 100%;
+}
+.feat-hcard{
+	background-color: rgba(12,169,238,0.56);
+}
+.opr-head{
+	background-color: #374455;
+	color: #fff;
+}
+.opactive .opr-head{
+	background-color: #07c1b3;
+}
+.opactive .opr-price{
+	color: #07c1b3;
+}
+.opactive .ser-buy-btn{
+	background-color: #07c1b3;
+	color: #fff;
+	border-color:#07c1b3;
+}

@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900');
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.logo{
+	width: 50px;
+	padding: 20px 0px;
+}
+.logo img{
+	width: 100%;
+}
+.nav.pull-right {
+    padding: 20px 0px;
+    position: relative;
+}
+.nav-actice {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    top: 50px;
+}
+.nav ul li a {
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0px 10px;
+}
+.nav ul li a:hover{
+	text-decoration: none;
+}
+.nav ul{
+	margin-bottom: 0px;
+}
+.header-text{
+	padding-top: 30px;
+}
+.header-text h1 {
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0px;
+    font-size: 75px;
+}
+.slogan {
+    font-size: 17px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    text-transform: uppercase;
+}
+.head-bod{
+	width: 15%;
+	margin: 0 auto;
+	height: 2px;
+}
+.banner .book{
+	width: 100px;
+}
+.banner .tags{
+	width: 150px;
+}
+.banner .scale{
+	width: 150px;
+}
+.handpaper {
+    width: 60%;
+    margin: 0 auto;
+}
+.banner .pencil {
+    width: 30px;
+    display: inline-block;
+}
+.banner .coffee {
+    width: 100px;
+    display: inline-block;
+}
+.banner .glass{
+	width: 150px;
+}
+.banner .sticky{
+	width: 120px;
+	display: inline-block;
+}
+.windows{
+	display: table;
+}
+.windows .left {
+	display: table-cell;
+	position: relative;
+	z-index: -1;
+	right: -70px;
+    /*width: 35%;*/
+}
+.windows .middle {
+    display: table-cell;
+    width: 40%;
+    z-index: 9;
+}
+.windows .right {
+    display: table-cell;
+    /* width: 35%; */
+    position: relative;
+    left: -70px;
+    z-index: -1;
+}
+.cli-stats{
+	padding: 10px 10px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#02ccb4+36,2989d8+44,207cca+60,207cca+60,207cca+70,01addf+79 */
+background: #02ccb4; /* Old browsers */
+background: -moz-linear-gradient(left,  #02ccb4 36%, #2989d8 44%, #207cca 60%, #207cca 60%, #207cca 70%, #01addf 79%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #02ccb4 36%,#2989d8 44%,#207cca 60%,#207cca 60%,#207cca 70%,#01addf 79%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #02ccb4 36%,#2989d8 44%,#207cca 60%,#207cca 60%,#207cca 70%,#01addf 79%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#02ccb4', endColorstr='#01addf',GradientType=1 ); /* IE6-9 */
+
+}
+.h-title{
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+.banner .book img,
+.banner .tags img,
+.banner .scale img,
+.banner .handpaper img,
+.banner .pencil img,
+.banner .coffee img,
+.banner .glass img,
+.banner .sticky img,
+.windows .left img,
+.windows .middle img,
+.windows .right img{
+	width: 100%;
+}
+.stat-main {
+    width: 200px;
+    height: 200px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    padding: 22px;
+    border-left-color: #20cdc7;
+}
+.stat-inner {
+    width: 152px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    height: 152px;
+    border-right-color: #20cdc7;
+    line-height: 50px;
+    text-align: center;
+}
+.stat-inner .glyphicon{
+	font-size: 30px;
+	margin-top:15px; 
+}
+.stat-inner span{
+	display: block;
+}
+.stat-inner .stat-count{
+	font-size: 30px;
+}
+.stat-name-h1,
+.stat-name-h3{
+    position: relative;
+    border-radius: 50%;
+    -webkit-transform: rotate(-50deg);
+    -ms-transform: rotate(-50deg);
+    -o-transform: rotate(-50deg);
+    transform: rotate(-127deg);
+    top: 12px;
+    left: -24px;
+}
+.stat-name-h2,
+.stat-name-h4 {
+    position: relative;
+    border-radius: 50%;
+    -webkit-transform: rotate(-50deg);
+    -ms-transform: rotate(-50deg);
+    -o-transform: rotate(-50deg);
+    transform: rotate(50deg);
+    top: 138px;
+    left: 29px;
+}
+.stat-name span {
+    height: 100px;
+    position: absolute;
+    width: 5px;
+    left: 5px;
+    top: -116px;
+    transform-origin: bottom center;
+}
+.st-f .char1{
+	-webkit-transform: rotate(6deg);
+	-ms-transform: rotate(6deg);
+	-o-transform: rotate(6deg);
+	transform: rotate(6deg);
+}
+.st-f .char2{
+	-webkit-transform: rotate(12deg);
+	-ms-transform: rotate(12deg);
+	-o-transform: rotate(12deg);
+	transform: rotate(12deg);
+}
+.st-f .char3{
+	-webkit-transform: rotate(18deg);
+	-ms-transform: rotate(18deg);
+	-o-transform: rotate(18deg);
+	transform: rotate(18deg);
+}
+.st-f .char4{
+	-webkit-transform: rotate(24deg);
+	-ms-transform: rotate(24deg);
+	-o-transform: rotate(24deg);
+	transform: rotate(24deg);
+}
+.st-f .char5{
+	-webkit-transform: rotate(30deg);
+	-ms-transform: rotate(30deg);
+	-o-transform: rotate(30deg);
+	transform: rotate(30deg);
+}
+.st-f .char6{
+	-webkit-transform: rotate(36deg);
+	-ms-transform: rotate(36deg);
+	-o-transform: rotate(36deg);
+	transform: rotate(36deg);
+}
+.st-f .char7{
+	-webkit-transform: rotate(42deg);
+	-ms-transform: rotate(42deg);
+	-o-transform: rotate(42deg);
+	transform: rotate(42deg);
+}
+.st-f .char8{
+	-webkit-transform: rotate(48deg);
+	-ms-transform: rotate(48deg);
+	-o-transform: rotate(48deg);
+	transform: rotate(48deg);
+}
+.st-f .char9{
+	-webkit-transform: rotate(54deg);
+	-ms-transform: rotate(54deg);
+	-o-transform: rotate(54deg);
+	transform: rotate(54deg);
+}
+.st-f .char10{
+	-webkit-transform: rotate(60deg);
+	-ms-transform: rotate(60deg);
+	-o-transform: rotate(60deg);
+	transform: rotate(60deg);
+}
+.st-f .char11{
+	-webkit-transform: rotate(66deg);
+	-ms-transform: rotate(66deg);
+	-o-transform: rotate(66deg);
+	transform: rotate(66deg);
+}
+.st-f .char12{
+	-webkit-transform: rotate(72deg);
+	-ms-transform: rotate(72deg);
+	-o-transform: rotate(72deg);
+	transform: rotate(72deg);
+}
+.st-f .char13{
+	-webkit-transform: rotate(78deg);
+	-ms-transform: rotate(78deg);
+	-o-transform: rotate(78deg);
+	transform: rotate(78deg);
+}
+.st-f .char14{
+	-webkit-transform: rotate(84deg);
+	-ms-transform: rotate(84deg);
+	-o-transform: rotate(84deg);
+	transform: rotate(84deg);
+}
+
+.owl-controls {
+    position: absolute;
+    top: -90px;
+    right: 0px;
+}
+.owl-controls .owl-prev,
+.owl-controls .owl-next{
+	border: 1px solid #fff;
+	border-radius: 3px;
+	padding: 10px;
+	display: inline-block;
+	margin-left: 4px;
+}
+.ab-h h1 {
+    margin: 0px;
+    padding-left: 10px;
+}
+.ab-slog,
+.ab-h{
+	padding: 45px 0px;
+}
+.ab-slog{
+	margin-right: 100px;
+}
+.ab-con h1{
+	font-size: 40px;
+	text-transform: uppercase;
+}
+.ab-con .ab-sb-h {
+    font-size: 22px;
+	text-transform: uppercase;
+    padding-bottom: 4px;
+    margin-bottom: 4px;
+    display: inline-block;
+}
+.car-con p{
+	color: #6d7a8b;
+	line-height: 1.8;
+}
+.car-con a {
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+}
+.feat-item{
+	width: 20%;
+	float: left;
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+}
+.feat-hcard {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 270px;
+    -webkit-transition: all 600ms ease;
+    -o-transition: all 600ms ease;
+    transition: all 600ms ease;
+}
+.hcardopen{
+	top: 0px;
+}
+.opr-head {
+    height: 110px;
+    padding:10px;
+}
+.opr-head .op-head-text{
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.opr-head span {
+    font-size: 24px;
+    margin: 20px 10px;
+}
+.opactive .opr-head .op-head-text{
+	font-size: 24px;
+	text-align: center;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.opr-body .opr-price {
+    font-size: 30px;
+    font-weight: 600;
+    padding: 8px 15px;
+}
+.opr-body ul {
+    padding-left: 10px;
+    margin-bottom: 25px;
+}
+.opr-body ul li {
+    list-style: none;
+    line-height: 1.8;
+}
+a.ser-buy-btn {
+    display: block;
+    padding: 8px 10px;
+    border: 1px solid #333;
+    width: 35%;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333;
+    font-weight: 600;
+}

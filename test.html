@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+<img class='backup_picture' src='http://cdn.pricefyi.com/images/products/170005001/Apple-iPhone-6-Plus-Gold-with-16-GB-PRODUCT-IMAGE-1-lilst.jpeg' />
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+		    $(".backup_picture").on("error", function(){
+		        $(this).attr('src', 'https://s3-ap-southeast-1.amazonaws.com/pfyi/images/g/ic-g/v1/preloader-v1.png');
+		    });
+		});
+	</script>
+</body>
+</html>
