@@ -103,11 +103,12 @@ body{
 }
 .cli-stats{
 	padding: 10px 10px;
+
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#02ccb4+36,2989d8+44,207cca+60,207cca+60,207cca+70,01addf+79 */
 background: #02ccb4; /* Old browsers */
-background: -moz-linear-gradient(left,  #02ccb4 36%, #2989d8 44%, #207cca 60%, #207cca 60%, #207cca 70%, #01addf 79%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left,  #02ccb4 36%,#2989d8 44%,#207cca 60%,#207cca 60%,#207cca 70%,#01addf 79%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right,  #02ccb4 36%,#2989d8 44%,#207cca 60%,#207cca 60%,#207cca 70%,#01addf 79%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+background: -moz-linear-gradient(left,  rgba(2, 204, 180, 0.84) 36%, rgba(41, 137, 216, 0.82) 44%, rgba(32, 124, 202, 0.47) 60%, rgba(32, 124, 202, 0.64) 60%, rgba(32, 124, 202, 0.74) 70%, rgba(1, 173, 223, 0.59) 79%),url('../images/multiimages.jpg'); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(2, 204, 180, 0.84) 36%,rgba(41, 137, 216, 0.82) 44%,rgba(32, 124, 202, 0.47) 60%,rgba(32, 124, 202, 0.64) 60%,rgba(32, 124, 202, 0.74) 70%,rgba(1, 173, 223, 0.59) 79%),url('../images/multiimages.jpg'); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(2, 204, 180, 0.84) 36%,rgba(41, 137, 216, 0.82) 44%,rgba(32, 124, 202, 0.47) 60%,rgba(32, 124, 202, 0.64) 60%,rgba(32, 124, 202, 0.74) 70%,rgba(1, 173, 223, 0.59) 79%),url('../images/multiimages.jpg'); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#02ccb4', endColorstr='#01addf',GradientType=1 ); /* IE6-9 */
 
 }
@@ -270,13 +271,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#02ccb4', end
 	transform: rotate(84deg);
 }
 
-.owl-controls {
+.about-slider .owl-controls {
     position: absolute;
     top: -90px;
     right: 0px;
 }
-.owl-controls .owl-prev,
-.owl-controls .owl-next{
+.about-slider .owl-controls .owl-prev,
+.about-slider .owl-controls .owl-next{
 	border: 1px solid #fff;
 	border-radius: 3px;
 	padding: 10px;
@@ -356,7 +357,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#02ccb4', end
 .opr-body .opr-price {
     font-size: 30px;
     font-weight: 600;
-    padding: 8px 15px;
+    padding: 25px 15px;
 }
 .opr-body ul {
     padding-left: 10px;
@@ -376,4 +377,137 @@ a.ser-buy-btn {
     text-transform: uppercase;
     color: #333;
     font-weight: 600;
+}
+.team-member {
+    width: 20%;
+    float: left;
+    position: relative;
+    overflow:hidden;
+}
+.team-member img{
+	width: 100%;
+}
+.team-info{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(48,55,65,0.5);
+	bottom: 0px;
+	top:375px;
+	cursor: pointer;
+	-webkit-transition: all 600ms ease;
+	-o-transition: all 600ms ease;
+	transition: all 600ms ease;
+}
+.tcardopen{
+	top: 0px;
+}
+.cl-btn {
+    padding: 5px 15px;
+    border: 1px solid #333;
+    color: #333;
+    display: inline-block;
+}
+.view-mem{
+	padding: 40px 10px;
+}
+.post-img img{
+	width: 100%;
+}
+.cli-img {
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+.testi-slider {
+    color: #fff;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+
+.testis .phone-img{
+	position: absolute;
+	left: 39%;
+	display: inline-block;
+	height: 100%;
+}
+/*.testis .owl-item.active > div:after {
+  content: 'active';
+}
+.testis .owl-item.center > div:after {
+  content: 'center';
+}*/
+
+.testis .phone-img img{
+	width: 100%;
+}
+.test-dp {
+    position: relative;
+    width: 30%;
+    border-radius: 50%;
+    margin: 0px auto;
+    border: 2px solid #fff;
+    padding: 5px;
+}
+.test-dp img{
+	border-radius: 50%;
+}
+.test-dp-q {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    z-index: 1;
+    border-radius: 50%;
+    font-size: 11px;
+}
+h2.testi-name {
+    text-align: center;
+}
+span.desig {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.cli-logos {
+    padding: 50px 0px;
+}
+footer{
+	background-image: url(../images/footer.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+span.s-text.cl-btn {
+    display: block;
+    border-color: #fff;
+    color: #fff;
+    text-transform: uppercase;
+}
+span.s-icon {
+    display: block;
+    text-align: center;
+    font-size: 22px;
+    padding: 10px;
+    color: #fff;
+}
+a.back-top {
+    padding: 20px 15px;
+    display: inline-block;
+    color: #fff;
+}
+a.back-top span {
+    display: block;
+    text-align: center;
+
+}
+a.back-top span i{
+	font-size: 18px;
+    margin: 10px;
+}
+.footer-rows{
+
 }

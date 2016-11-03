@@ -13,7 +13,10 @@ body{
 }
 .whowe .h-title,
 .feat-des .h-title,
-.our-price .h-title{
+.our-price .h-title,
+.our-team .h-title,
+.posts .h-title,
+.contact-form .h-title{
 	color: #333;
 }
 .slogan .high-text{
@@ -65,4 +68,26 @@ body{
 	background-color: #07c1b3;
 	color: #fff;
 	border-color:#07c1b3;
+}
+.our-team{
+	background-color: #f7f7f7
+}
+.testis{
+	background: linear-gradient(rgba(56, 67, 85, 0.72), rgba(56, 67, 85, 0.63)), rgba(56, 67, 85,0.55) url(../images/cleints.jpg) no-repeat;
+	background-size: cover;
+}
+.cli-stats{
+	color: #fff;
+}
+.test-dp-q {
+	background-color: #02ccb2;
+}
+.testis .owl-item.active.center > div {
+ 	background-color: #02ccb2;
+}
+span.desig {
+	color: #02ccb2;
+}
+.so-links li a:hover span.s-text{
+	background-color: #02ccb2;
 }
