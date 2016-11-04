@@ -52,7 +52,7 @@ body{
 	width: 100%;
 }
 .feat-hcard{
-	background-color: rgba(12,169,238,0.56);
+	background-color: rgba(14, 172, 235, 0.89);
 }
 .opr-head{
 	background-color: #374455;
@@ -72,8 +72,9 @@ body{
 .our-team{
 	background-color: #f7f7f7
 }
-.testis{
-	background: linear-gradient(rgba(56, 67, 85, 0.72), rgba(56, 67, 85, 0.63)), rgba(56, 67, 85,0.55) url(../images/cleints.jpg) no-repeat;
+.testis,
+.about-us{
+	background: linear-gradient(rgba(56, 67, 85, 0.83), rgba(56, 67, 85, 0.85)), rgba(56, 67, 85,0.85) url(../images/cleints.jpg) no-repeat;
 	background-size: cover;
 }
 .cli-stats{
@@ -84,10 +85,28 @@ body{
 }
 .testis .owl-item.active.center > div {
  	background-color: #02ccb2;
+ 	padding: 15px 25px;
 }
+.testis .owl-item.active.center{
+
+}
+
 span.desig {
 	color: #02ccb2;
 }
 .so-links li a:hover span.s-text{
+	background-color: #02ccb2;
+}
+.feat-tab li{
+	background-color: #f9f9f9;
+}
+.feat-tab li.active{
+	background-color: #02ccb2;
+}
+.feat-tab li.active a,
+.feat-tab li:hover a{
+	color: #fff;
+}
+.feat-tab li:hover{
 	background-color: #02ccb2;
 }

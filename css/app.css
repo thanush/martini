@@ -13,6 +13,14 @@ body{
     padding: 20px 0px;
     position: relative;
 }
+a{
+	color: #333;
+}
+a:hover,
+a:focus{
+	text-decoration: none;
+	color: #333
+}
 .nav-actice {
     position: absolute;
     width: 20px;
@@ -34,6 +42,11 @@ body{
 .header-text{
 	padding-top: 30px;
 }
+.whowe {
+    color: #333;
+    padding: 50px 0px;
+    padding-bottom: 0px !important;
+}
 .header-text h1 {
     font-weight: 600;
     text-transform: uppercase;
@@ -51,17 +64,21 @@ body{
 	margin: 0 auto;
 	height: 2px;
 }
-.banner .book{
-	width: 100px;
+.banner .book {
+    width: 270px;
+    margin: 0 auto;
 }
-.banner .tags{
-	width: 150px;
+.banner .tags {
+    width: 150px;
+    display: inline-block;
 }
-.banner .scale{
-	width: 150px;
+.banner .scale {
+    width: 150px;
+    display: inline-block;
+    margin-left: 70px;
 }
 .handpaper {
-    width: 60%;
+    width: 100%;
     margin: 0 auto;
 }
 .banner .pencil {
@@ -71,9 +88,13 @@ body{
 .banner .coffee {
     width: 100px;
     display: inline-block;
+    margin-left: 50px;
 }
-.banner .glass{
-	width: 150px;
+.banner .glass {
+    width: 150px;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
 }
 .banner .sticky{
 	width: 120px;
@@ -270,7 +291,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#02ccb4', end
 	-o-transform: rotate(84deg);
 	transform: rotate(84deg);
 }
-
+.feat-tab li {
+    margin: 0px 10px;
+}
+.feat-tab li a {
+    text-transform: uppercase;
+    color: #333;
+    padding: 10px;
+    display: inline-block;
+}
+ul.list-inline.feat-tab {
+    margin-bottom: 0px;
+    padding: 10px 0px;
+    margin-top: 5px;
+}
 .about-slider .owl-controls {
     position: absolute;
     top: -90px;
@@ -295,6 +329,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#02ccb4', end
 .ab-slog{
 	margin-right: 100px;
 }
+.testis{
+	margin-top: 10px;
+}
+.oprice-slog,
+.our-team-slog,
+.posts-slog {
+    padding: 20px 0px;
+}
+.ab-slog p,
+.oprice-slog p,
+.our-team-slog p,
+.posts-slog p {
+    font-size: 17px;
+}
+.our-team {
+	margin-top: 10px;
+}
 .ab-con h1{
 	font-size: 40px;
 	text-transform: uppercase;
@@ -305,6 +356,28 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#02ccb4', end
     padding-bottom: 4px;
     margin-bottom: 4px;
     display: inline-block;
+}
+.feat-name {
+    height: 130px;
+    line-height: 130px;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 26px;
+}
+.feat-veiw {
+    text-align: center;
+    font-size: 17px;
+    color: #fff;
+}
+.feat-veiw span {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #fff;
+    line-height: 35px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
 }
 .car-con p{
 	color: #6d7a8b;
@@ -322,7 +395,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#02ccb4', end
 	float: left;
 	position: relative;
 	overflow: hidden;
-	cursor: pointer;
+	/*cursor: pointer;*/
 }
 .feat-hcard {
     position: absolute;
@@ -426,11 +499,34 @@ a.ser-buy-btn {
     margin-top: 75px;
 }
 
-.testis .phone-img{
-	position: absolute;
-	left: 39%;
-	display: inline-block;
-	height: 100%;
+.testis .phone-img {
+    position: absolute;
+    left: 36.9%;
+    display: inline-block;
+    height: 100%;
+    top: -30px;
+}
+.testis .owl-item.active.center{
+	/*top:-30px;*/
+}
+.testi-slider .owl-controls .owl-prev,
+.testi-slider .owl-controls .owl-next {
+    position: absolute;
+    top: 50%;
+    font-size: 20px;
+}
+
+.testi-slider .owl-controls .owl-prev{
+	left: -20px;
+}
+.testi-slider .owl-controls .owl-next {
+	right: -20px;
+}
+.testis .owl-item.active.center span.desig{
+	color: #fff;
+}
+.test-con p{
+	line-height: 2;
 }
 /*.testis .owl-item.active > div:after {
   content: 'active';
@@ -438,7 +534,9 @@ a.ser-buy-btn {
 .testis .owl-item.center > div:after {
   content: 'center';
 }*/
-
+.row{
+	position: relative;
+}
 .testis .phone-img img{
 	width: 100%;
 }
