@@ -2,6 +2,12 @@
 body{
 	font-family: 'Roboto', sans-serif;
 }
+.desk-none{
+	display: none;
+}
+.desk-block{
+	display: block;
+}
 .logo{
 	width: 50px;
 	padding: 20px 0px;
@@ -103,6 +109,9 @@ a:focus{
 .windows{
 	display: table;
 }
+.windows img{
+	width: 100%;
+}
 .windows .left {
 	display: table-cell;
 	position: relative;
@@ -127,9 +136,9 @@ a:focus{
 
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#02ccb4+36,2989d8+44,207cca+60,207cca+60,207cca+70,01addf+79 */
 background: #02ccb4; /* Old browsers */
-background: -moz-linear-gradient(left,  rgba(2, 204, 180, 0.84) 36%, rgba(41, 137, 216, 0.82) 44%, rgba(32, 124, 202, 0.47) 60%, rgba(32, 124, 202, 0.64) 60%, rgba(32, 124, 202, 0.74) 70%, rgba(1, 173, 223, 0.59) 79%),url('../images/multiimages.jpg'); /* FF3.6-15 */
-background: -webkit-linear-gradient(left,  rgba(2, 204, 180, 0.84) 36%,rgba(41, 137, 216, 0.82) 44%,rgba(32, 124, 202, 0.47) 60%,rgba(32, 124, 202, 0.64) 60%,rgba(32, 124, 202, 0.74) 70%,rgba(1, 173, 223, 0.59) 79%),url('../images/multiimages.jpg'); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right,  rgba(2, 204, 180, 0.84) 36%,rgba(41, 137, 216, 0.82) 44%,rgba(32, 124, 202, 0.47) 60%,rgba(32, 124, 202, 0.64) 60%,rgba(32, 124, 202, 0.74) 70%,rgba(1, 173, 223, 0.59) 79%),url('../images/multiimages.jpg'); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+background: -moz-linear-gradient(left,  rgba(2, 204, 180, 0.84) 36%, rgba(41, 137, 216, 0.82) 44%, rgba(32, 124, 202, 0.47) 60%, rgba(32, 124, 202, 0.64) 60%, rgba(32, 124, 202, 0.74) 70%, rgba(1, 173, 223, 0.59) 79%),url('../images/multiimages.jpg') no-repeat; /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(2, 204, 180, 0.84) 36%,rgba(41, 137, 216, 0.82) 44%,rgba(32, 124, 202, 0.47) 60%,rgba(32, 124, 202, 0.64) 60%,rgba(32, 124, 202, 0.74) 70%,rgba(1, 173, 223, 0.59) 79%),url('../images/multiimages.jpg') no-repeat; /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(2, 204, 180, 0.84) 36%,rgba(41, 137, 216, 0.82) 44%,rgba(32, 124, 202, 0.47) 60%,rgba(32, 124, 202, 0.64) 60%,rgba(32, 124, 202, 0.74) 70%,rgba(1, 173, 223, 0.59) 79%),url('../images/multiimages.jpg') no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#02ccb4', endColorstr='#01addf',GradientType=1 ); /* IE6-9 */
 
 }
@@ -577,7 +586,8 @@ span.desig {
 footer{
 	background-image: url(../images/footer.png);
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: cover;
+
 }
 span.s-text.cl-btn {
     display: block;
@@ -606,6 +616,71 @@ a.back-top span i{
 	font-size: 18px;
     margin: 10px;
 }
+.col-md-4.contact-info {
+    margin-top: 68px;
+    font-size: 18px;
+}
+.col-md-4.contact-info .con-icn{
+	margin-right: 10px;
+}
+.phone-number {
+    margin-bottom: 25px;
+}
+.street-addr {
+    margin: 25px 0px;
+}
 .footer-rows{
 
+}
+@media all and (min-width: 320px) and (max-width: 580px){
+	.mob-none{
+		display: none;
+	}
+	.mob-block{
+		display: block;
+	}
+	.nav{
+		display: none;
+	}
+	.header-text h1 {
+	    font-size: 30px;
+	}
+	.slogan{
+		font-size: 12px;
+	}
+	.whowe{
+		padding: 10px 0px;
+	}
+	.h-title{
+		font-size: 25px;
+	}
+	.ab-slog, .ab-h {
+	    padding: 10px 0px;
+	}
+	.ab-con h1{
+		font-size: 20px;
+	}
+	.testis .phone-img{
+		top: 0px;
+		left: 2%;
+	}
+	.cli-img,
+	.team-member{
+		width: 100%;
+		margin-bottom: 5px;
+		padding: 10px;
+	}
+	.cli-stats{
+		background: #313842;
+	}
+	.stat-main{
+		margin: 0 auto;
+		margin-top: 5px;
+	}
+	.oprice{
+		margin-top: 5px;
+	}
+	footer{
+		background: #313842;
+	}
 }

@@ -14,7 +14,23 @@ $(function() {
 	    items:3,
 	    margin:15,
 	    nav: true,
-	    navText: ["<i class='fa fa-angle-left' aria-hidden='true'></i>","<i class='fa fa-angle-right' aria-hidden='true'></i>"]
+	    dots: true,
+	    navText: ["<i class='fa fa-angle-left' aria-hidden='true'></i>","<i class='fa fa-angle-right' aria-hidden='true'></i>"],
+	    responsive : {
+	    	0:{
+	            items:1,
+	            nav:true
+	        },
+	        600:{
+	            items:3,
+	            nav:false
+	        },
+	        1000:{
+	            items:5,
+	            nav:true,
+	            loop:false
+	        }
+	    }
 	})
 	$('.feat-item').hover(function(){
 		$(this).find('.feat-hcard').addClass('hcardopen')

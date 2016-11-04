@@ -87,10 +87,9 @@ body{
  	background-color: #02ccb2;
  	padding: 15px 25px;
 }
-.testis .owl-item.active.center{
-
+.contact-form {
+    margin-top: 100px;
 }
-
 span.desig {
 	color: #02ccb2;
 }
@@ -109,4 +108,14 @@ span.desig {
 }
 .feat-tab li:hover{
 	background-color: #02ccb2;
+}
+.sub-btn{
+	background-color: #07c1b3;
+	color: #fff;
+}
+.sub-btn:hover{
+	color: #fff;
+}
+.col-md-4.contact-info .con-icn{
+	color: #07c1b3;
 }

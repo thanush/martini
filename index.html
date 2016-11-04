@@ -3,6 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Home::</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/lib/bootstrap.css">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/lib/owl.carousel.css">
@@ -41,7 +43,7 @@
 		</div>
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-md-4 mob-none">
 					<div class="book">
 						<img src="images/book.png" alt="">
 					</div>
@@ -58,7 +60,7 @@
 						<img src="images/hadpaper.png" alt="">
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 mob-none">
 					<div class="pencil">
 						<img src="images/pencil.png" alt="">
 					</div>
@@ -87,7 +89,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="windows">
+				<div class="windows mob-none">
 					<!-- <div class="left">
 						<img src="images/safari.png" alt="">
 					</div>
@@ -592,9 +594,7 @@
 						<div class="pull-left">
 							<h1 class="h-title">keep in touch with us</h1>
 						</div>
-						<div class="pull-right">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit.</p>
-						</div>
+						
 					</div>
 					<form action="#" class="form">
 						<div class="form-group">
@@ -607,19 +607,19 @@
 							<textarea name="" class="form-control" placeholder="Message" id="" cols="30" rows="10"></textarea>
 						</div>
 						<div class="form-group text-center">
-							<button type="button" class="btn btn-primary btn-sm btn-block">SEND MESSAGE</button>
+							<button type="button" class="btn btn-lg btn-block sub-btn">SEND MESSAGE</button>
 						</div>
 					</form>
 				</div>
 				<div class="col-md-4 contact-info">
 					<div class="phone-number">
-						+(91) 123 456 4444
+						<span class="con-icn"><i class="fa fa-map-marker" aria-hidden="true"></i></span>+(91) 123 456 4444
 					</div>
 					<div class="street-addr">
-						<p>#1-108-08,Madison square,Hyderabad</p>
+						<span class="con-icn"><i class="fa fa-building-o" aria-hidden="true"></i></span>#1-108-08,Madison square,Hyderabad
 					</div>
 					<div class="mail">
-						<a href="mailto:hello@foo.com">hello@foo.com</a>
+						<a href="mailto:hello@foo.com" > <span class="con-icn"><i class="fa fa-envelope" aria-hidden="true"></i></span>hello@foo.com</a>
 					</div>
 				</div>
 			</div>
