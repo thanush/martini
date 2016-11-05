@@ -751,4 +751,17 @@ a.back-top span i{
 	.nav ul li a{
 		padding: 0 5px;
 	}
+	.feat-item,
+	.team-member{
+		width: 50%;
+	}
+	.testi-slider{
+		width: 100%;
+	}
+	.testis .phone-img{
+		left: 30%;
+	}
+	a.ser-buy-btn{
+		width: 50%;
+	}
 }
