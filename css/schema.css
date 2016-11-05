@@ -28,6 +28,9 @@ body{
 .nav-actice {
 	 border: 2px solid #07c1b3;
 }
+.nav ul li a:hover{
+	color: #07c1b3;
+}
 .head-bod{
 	background-color: #07c1b3;
 }
@@ -118,4 +121,7 @@ span.desig {
 }
 .col-md-4.contact-info .con-icn{
 	color: #07c1b3;
+}
+p.copy-slogan {
+    color: #6d7a8b;
 }

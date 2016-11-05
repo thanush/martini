@@ -26,9 +26,8 @@ $(function() {
 	            nav:false
 	        },
 	        1000:{
-	            items:5,
-	            nav:true,
-	            loop:false
+	            items:3,
+	            nav:true
 	        }
 	    }
 	})

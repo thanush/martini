@@ -18,6 +18,7 @@ body{
 .nav.pull-right {
     padding: 20px 0px;
     position: relative;
+    overflow:hidden;
 }
 a{
 	color: #333;
@@ -27,23 +28,66 @@ a:focus{
 	text-decoration: none;
 	color: #333
 }
+
 .nav-actice {
     position: absolute;
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    top: 50px;
+    top: 20px;
+	left: -12.5%;
+	-webkit-transition: 0.7s ease-in-out;
+	-moz-transition: 0.7s ease-in-out;
+	-o-transition: 0.7s ease-in-out;
+	-ms-transition: 0.7s ease-in-out;
+	transition: 0.7s ease-in-out;
 }
 .nav ul li a {
     color: #fff;
     text-transform: uppercase;
     padding: 0px 10px;
+    -webkit-transition: .7s;
+	-moz-transition: .7s;
+	-o-transition: .7s;
+	-ms-transition: .7s;
+	transition: .7s;
 }
+
 .nav ul li a:hover{
 	text-decoration: none;
+	
+}
+
+.nav ul li:nth-child(1):hover ~ .nav-actice{
+	left: 2.5%;
+}
+.nav ul li:nth-child(2):hover ~ .nav-actice {
+	left: 13.5%;
+}
+.nav ul li:nth-child(3):hover ~ .nav-actice {
+	left: 24.5%;
+}
+.nav ul li:nth-child(4):hover ~ .nav-actice {
+	left: 38.5%;
+}
+.nav ul li:nth-child(5):hover ~ .nav-actice {
+	left: 51.5%;
+}
+.nav ul li:nth-child(6):hover ~ .nav-actice {
+	left: 62.5%;
+}
+.nav ul li:nth-child(7):hover ~ .nav-actice {
+	left: 71.5%;
+}
+.nav ul li:nth-child(8):hover ~ .nav-actice {
+	left: 82.5%;
+}
+.nav ul li:nth-child(9):hover ~ .nav-actice {
+	left: 94.5%;
 }
 .nav ul{
 	margin-bottom: 0px;
+	position: relative;
 }
 .header-text{
 	padding-top: 30px;
@@ -410,7 +454,7 @@ ul.list-inline.feat-tab {
     position: absolute;
     width: 100%;
     height: 100%;
-    top: 270px;
+    top: 100%;
     -webkit-transition: all 600ms ease;
     -o-transition: all 600ms ease;
     transition: all 600ms ease;
@@ -475,7 +519,7 @@ a.ser-buy-btn {
 	width: 100%;
 	background-color: rgba(48,55,65,0.5);
 	bottom: 0px;
-	top:375px;
+	top:100%;
 	cursor: pointer;
 	-webkit-transition: all 600ms ease;
 	-o-transition: all 600ms ease;
@@ -632,15 +676,33 @@ a.back-top span i{
 .footer-rows{
 
 }
+
 @media all and (min-width: 320px) and (max-width: 580px){
 	.mob-none{
 		display: none;
 	}
 	.mob-block{
+		display: block !important;
+	}
+	.nav.pull-right {
+	    border-bottom: 0px;
+	    position: fixed;
+	    left: 0px;
+	    top: 0px;
+	    height: 100%;
+	    background-color: #333;
+	    z-index: 9;
+	    width: 270px;
+	    left: -270px;
+	}
+	.nav ul li{
 		display: block;
 	}
-	.nav{
-		display: none;
+	.nav-menu {
+	    color: #fff;
+	    text-align: center;
+	    padding: 25px;
+	    font-size: 20px;
 	}
 	.header-text h1 {
 	    font-size: 30px;
@@ -665,7 +727,8 @@ a.back-top span i{
 		left: 2%;
 	}
 	.cli-img,
-	.team-member{
+	.team-member,
+	.feat-item{
 		width: 100%;
 		margin-bottom: 5px;
 		padding: 10px;
@@ -682,5 +745,10 @@ a.back-top span i{
 	}
 	footer{
 		background: #313842;
+	}
+}
+@media all and (min-width: 581px) and (max-width: 768px){
+	.nav ul li a{
+		padding: 0 5px;
 	}
 }
